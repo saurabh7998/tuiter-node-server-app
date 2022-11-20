@@ -10,6 +10,8 @@ export default [
         "retuits": 300,
         "likes": 370,
         "liked": true,
+        "dislikes": 0,
+        "disliked": false,
         "_id": "123"
     },
     {
@@ -23,6 +25,8 @@ export default [
         "retuits": 240,
         "likes": 400,
         "liked": false,
+        "dislikes": 0,
+        "disliked": false,
         "_id": "234"
     }
 ]
