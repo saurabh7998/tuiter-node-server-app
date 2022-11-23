@@ -5,8 +5,9 @@ import HelloController from "./controllers/hello-controller.js";
 import UsersController from "./controllers/users/users-controller.js";
 import TuitsController from "./controllers/tuits/tuits-controller.js";
 
-
-mongoose.connect('mongodb://localhost:27017/tuiter');
+const CONNECTION_STRING = "mongodb+srv://saurabh7998:MyTuiterDb7998!@cluster0.wivmu9n.mongodb.net/?retryWrites=true&w=majority"
+// const CONNECTION_STRING = 'mongodb://localhost:27017/tuiter'
+mongoose.connect(CONNECTION_STRING);
 
 const app = express()
 app.use(cors())
